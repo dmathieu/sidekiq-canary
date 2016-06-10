@@ -36,8 +36,9 @@ randomizer will be applied again.
 In order to do that, you need two apps. Your main one will run the default queue.
 The second one will run a `default_canary` queue.
 
-When deploying a sensitive change, you need to deploy the canary app only, and
-set the `DEFAULT_CANARY_PERCENT` environment variable **on both apps**.
+when deploying a sensitive change, you need to deploy the canary app only, and
+set the `default_canary_percent` environment variable on the app which triggers
+the job.
 
 Once this is done, all jobs will have the specified percentage number of
 chances of being picked to run in the canary instead of the main app.
