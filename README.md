@@ -45,3 +45,7 @@ chances of being picked to run in the canary instead of the main app.
 
 When your experiment is over, you can bring back the canary percentage to zero
 and deploy your changes to your main app.
+
+## Demo
+
+![demo](demo.gif)
