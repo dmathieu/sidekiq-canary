@@ -28,6 +28,7 @@ GEM
     diff-lcs (1.2.5)
     hitimes (1.2.4)
     json (1.8.3)
+    rake (10.4.2)
     redis (3.3.0)
     redis-namespace (1.5.2)
       redis (~> 3.0, >= 3.0.4)
@@ -57,6 +58,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  rake
   rspec
   sidekiq-canary!
 

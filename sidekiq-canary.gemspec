@@ -19,5 +19,6 @@ Gem::Specification.new do |gem|
 
   gem.add_dependency 'sidekiq', '~> 3.0'
 
+  gem.add_development_dependency 'rake'
   gem.add_development_dependency 'rspec'
 end
